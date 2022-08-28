@@ -1,0 +1,165 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+#title > .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar > .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* title-buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* features */
+h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.fas {
+  margin: auto;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* downside */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+.final-head {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* footer section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.soc-icon {
+  margin: 20px 10px;
+}
